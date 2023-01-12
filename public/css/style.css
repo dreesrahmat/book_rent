@@ -1,0 +1,32 @@
+.main {
+    height: 100vh
+}
+
+.sidebar {
+    background: rgb(70, 69, 69);
+    color: #fff;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 15px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+}
+
+.sidebar a:hover {
+    background: #000
+}
+
+.active {
+    background: #000;
+    border-right: solid 8px red
+}
